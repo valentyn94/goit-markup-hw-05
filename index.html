@@ -476,10 +476,25 @@
 
     <div class="backdrop active">
       <div class="modal">
-        <button class="modal-close" type="button">X</button>
-        <h2 class="modal-title">
-          Leave your contacts and we will call you back
-        </h2>
+        <button class="modal-close" type="button">
+          <svg class="modal-icons" height="8" width="8">
+            <use href="./images/icons2.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="form-box">
+            <label for="user-name" class="form-label">Name</label>
+            <div class="form-input">
+              <input
+                class="input-window"
+                id="user-name"
+                name="user-name"
+                type="text"
+              />
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>
