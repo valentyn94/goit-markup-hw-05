@@ -474,6 +474,8 @@
       </div>
     </footer>
 
+    <!--MODAL-->
+
     <div class="backdrop active">
       <div class="modal">
         <button class="modal-close" type="button">
@@ -492,7 +494,49 @@
                 name="user-name"
                 type="text"
               />
+              <svg class="form-icons" height="24" width="18">
+                <use href="./images/icons2.svg#icon-name"></use>
+              </svg>
             </div>
+          </div>
+
+          <div class="form-box">
+            <label for="user-phone" class="form-label">Phone</label>
+            <div class="form-input">
+              <input
+                class="input-window"
+                id="user-phone"
+                name="user-phone"
+                type="text"
+              />
+              <svg class="form-icons" height="24" width="18">
+                <use href="./images/icons2.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-box">
+            <label for="user-mail" class="form-label">Email</label>
+            <div class="form-input">
+              <input
+                class="input-window"
+                id="user-mail"
+                name="user-mail"
+                type="text"
+              />
+              <svg class="form-icons" height="24" width="18">
+                <use href="./images/icons2.svg#icon-mail"></use>
+              </svg>
+            </div>
+
+            <div class="modal-text-box"></div>
+            <label class="form-label" for="user-comment">Comment</label>
+            <textarea
+              class="comment-window"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
         </form>
       </div>
