@@ -747,3 +747,16 @@ a {
   justify-content: center;
   fill: transparent;
 }
+
+.checkbox-icon {
+}
+
+.checkbox-text:checked + .checkbox-label .label-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.checkbox-link {
+  color: #4d5ae5;
+}
