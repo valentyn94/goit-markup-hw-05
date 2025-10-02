@@ -535,7 +535,7 @@ a {
 .footer-box-right {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  margin-right: 80px;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -819,6 +819,7 @@ a {
 
 .checkbox-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .submit-button {
